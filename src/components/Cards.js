@@ -12,7 +12,7 @@ const Cards = ({ data, tags, indexObj }) => {
         }
         return show;
     })
-    if (d.length == 0) d = data;
+    if (d.length === 0) d = data;
     let list = d.map((d, ind) => {
         return <Card key={ind} d={d} />
     })
