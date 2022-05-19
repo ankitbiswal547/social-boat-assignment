@@ -28,6 +28,7 @@ function App() {
         uniTags[tag.tagName] = true;
         return true;
       }
+      return false
     });
 
     let indexObj = {};
